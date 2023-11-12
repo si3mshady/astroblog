@@ -1,5 +1,6 @@
 ---
-// import '../styles/global.css';
+import '../styles/dev.css';
+import Navigation from "../components/Navigation.astro";
 const identity = {
   firstName: "Elliott",
   country: "USA",
@@ -22,27 +23,7 @@ const pageTitle = "About Me";
 <!doctype html>
 <html lang="en">
 	<style define:vars={{skillColor , fontWeight,  textCase}}>
-		html {
-				background-color: #f1f5f9;
-				font-family: sans-serif;
-				}
-
-				body {
-				margin: 0 auto;
-				width: 100%;
-				max-width: 80ch;
-				padding: 1rem;
-				line-height: 1.5;
-				}
-
-				* {
-				box-sizing: border-box;
-				}
-
-				h1 {
-				margin: 1rem 0;
-				font-size: 2.5rem;
-				}
+		
 		h1 {
 		  color: purple;
 		  font-size: 4rem;
@@ -60,9 +41,7 @@ const pageTitle = "About Me";
 
 
 	<body>
-		<a href="/">Home</a>
-		<br/>
-		<a href="/blog_/">Blog</a>
+		<Navigation/>
 		<h1>{pageTitle}</h1>
 		
 		<p>Here are a few facts about me:</p>
