@@ -5,7 +5,6 @@ pubDate: 'Nov 11 2023'
 heroImage: '/blog-placeholder-3.jpg'
 
 ---
-
 Hey Tech Enthusiasts!
 
 Have you ever heard of an Observability Pipeline, Sensu, or the term Observability as Code? 🚀** 🔍
