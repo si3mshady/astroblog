@@ -24,12 +24,12 @@ Observability as Code enables you to define, deploy, and manage your observabili
 Witness the marvel of CI/CD! Our GitHub Action CICD pipeline seamlessly updates the Observability Pipeline using httpie and JSON-formatted events – automation at its finest.
 
 ### 🖥️ Screenshots Galore:
-![Screenshot 1](../images/sensu.png)
+![Screenshot 1](/square-solstice/public/sensu.jpg)
 
 
 Dive into a visual feast with screenshots from the Sensu UI! Experience the heartbeat of your infrastructure in real-time, showcasing the dynamic interplay between Sensu-backend and Sensu-agent. Manage incidents seamlessly with the dedicated Incident Management screen.
 
-![Screenshot 2](../images/sensu-docker-compose.png)
+![Screenshot 2](/square-solstice/public/sensu-docker-compose.png)
 
 ### 🤔 Ever Heard of Sensu?
 
