@@ -1,5 +1,5 @@
 ---
-const pageTitle = "About Me";
+import '../styles/global.css';
 const identity = {
   firstName: "Elliott",
   country: "USA",
@@ -12,21 +12,31 @@ const skills = ["Python", "Kubernetes", "App Development", "AWS", "SOC","IOT", "
 const happy = true;
 const finished = false;
 const goal = 3;
+const skillColor = "navy";
+const fontWeight = "bold"
+const textCase = "uppercase"
+const pageTitle = "About Me";
 
 ---
 
 <!doctype html>
 <html lang="en">
-	<style>
+	<style define:vars={{skillColor , fontWeight,  textCase}}>
 		h1 {
 		  color: purple;
 		  font-size: 4rem;
 		}
 		.skill {
-			color: green;
-			font-weight: bold;
+			color: var(--skillColor);
+			font-weight: var(--fontWeight);
+			text-transform: var(--textCase);
 		}
+
+		
 	  </style>
+
+
+
 
 	<body>
 		<a href="/">Home</a>
