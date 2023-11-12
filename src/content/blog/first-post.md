@@ -2,7 +2,7 @@
 title: 'Observability as Code: Unveiling the Power of the Sensu Observability Pipeline'
 description: 'Explore the revolutionary Observability Pipeline, the backbone of Site Reliability Engineering, and learn how Sensu is transforming the landscape with Observability as Code.'
 pubDate: 'Nov 11 2023'
-# heroImage: '/blog-placeholder-3.jpg'
+heroImage: '/blog-placeholder-3.jpg'
 
 ---
 
