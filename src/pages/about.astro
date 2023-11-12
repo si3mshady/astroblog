@@ -1,6 +1,9 @@
 ---
 import '../styles/dev.css';
+import FooterDev from '../components/FooterDev.astro';
 import Navigation from "../components/Navigation.astro";
+
+
 const identity = {
   firstName: "Elliott",
   country: "USA",
@@ -62,6 +65,7 @@ const pageTitle = "About Me";
 			{finished && <p>I finished this tutorial!</p>}
 
 			{goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
-</ul>
+			</ul>
+			<FooterDev />
 	</body>
 </html>
