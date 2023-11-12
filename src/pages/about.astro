@@ -1,7 +1,7 @@
 ---
 import '../styles/dev.css';
 import FooterDev from '../components/FooterDev.astro';
-import Navigation from "../components/Navigation.astro";
+import HeaderDev from '../components/HeaderDev.astro';
 
 
 const identity = {
@@ -44,7 +44,9 @@ const pageTitle = "About Me";
 
 
 	<body>
-		<Navigation/>
+
+		<HeaderDev />
+		
 		<h1>{pageTitle}</h1>
 		
 		<p>Here are a few facts about me:</p>

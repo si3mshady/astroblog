@@ -152,3 +152,21 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+
+/* nav styles */
+
+  @media screen and (min-width: 636px) {
+	.nav-links {
+	  margin-left: 5em;
+	  display: block;
+	  position: static;
+	  width: auto;
+	  background: none;
+	}
+  
+	.nav-links a {
+	  display: inline-block;
+	  padding: 15px 20px;
+	}
+  
+  }
