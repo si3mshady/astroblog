@@ -3,17 +3,18 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+const pageTitle = "The Cloud Shepherd";
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<BaseHead title={pageTitle} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
-		<Header title={SITE_TITLE} />
+		<Header title={pageTitle} />
 		<main>
-			<h1>🚀 Welcome to Elliott Arnold's Space!</h1>
+			<h1>🚀{pageTitle}</h1>
 			<p>
 			  Hey there, I'm Elliott Arnold – explorer, tech enthusiast, drone pilot, and a passionate volunteer. This space is dedicated to sharing my adventures, insights, and the things that make life exciting!
 			</p>
